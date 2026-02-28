@@ -74,9 +74,35 @@
 
             #endregion
 
+            #endregion
 
+            #region Indexer Eample 1
+
+            //ToDoList myList = new ToDoList(5);
+
+            //myList[0] = "Explain Method";
+            //myList[1] = "C# OOP";
+
+            //Console.WriteLine(myList[0]);
+            //Console.WriteLine(myList[1]);
 
             #endregion
+
+            #region Indexer Example 2
+
+            //Library library = new Library("Route Library");
+            //library.AddBook(new Books("123-456789", "OOP"));
+            //library.AddBook(new Books("246-987654", "C#"));
+
+            //Console.WriteLine($"Book 1 : {library[0].Title}");
+
+            //Console.WriteLine(library["246-987654"].Title);
+
+            //Console.WriteLine(library.BooksCount);
+            #endregion
+
+
+
         }
     }
 } 

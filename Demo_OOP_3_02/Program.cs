@@ -1,6 +1,9 @@
 ﻿namespace Demo_OOP_3_02
 {
+    using Demo_OOP_3_02.Static;
     using System;
+    using System.Security.Cryptography.X509Certificates;
+
     public class Program
     {
         private int _age;
@@ -101,7 +104,36 @@
             //Console.WriteLine(library.BooksCount);
             #endregion
 
+            #region Static
 
+            //Student s1 = new Student("Alice");
+            //Console.WriteLine($"Afterr Creating Alic : Total Students = {Student.TotalStudent}");
+
+            //Student s2 = new Student("Bob");
+            //Console.WriteLine($"Afterr Creating Bob : Total Students = {Student.TotalStudent}");
+
+            #endregion
+
+            #region Static Methods
+
+            //Counter.Increment();
+            //Console.WriteLine($"Counter: {Counter._counter}");
+            //Counter.Decrement();
+            //Console.WriteLine($"Counter: {Counter._counter}");
+
+
+
+            #endregion
+
+            #region Static Constructor
+
+            //Product p1 = new Product("test", 75000.00m);
+            //Console.WriteLine(p1);
+
+            //Product p2 = new Product("test", 60000.00m);
+            //Console.WriteLine(p2);
+
+            #endregion
 
         }
     }
